@@ -8,14 +8,6 @@ data21 = pd.read_csv("odds data/nba odds 2021-22.csv")
 data21["Year"] = 2022
 data20 = pd.read_csv("odds data/nba odds 2020-21.csv")
 data20["Year"] = 2021
-data19 = pd.read_csv("odds data/nba odds 2019-20.csv")
-data19["Year"] = 2020
-data18 = pd.read_csv("odds data/nba odds 2018-19.csv")
-data18["Year"] = 2019
-data17 = pd.read_csv("odds data/nba odds 2017-18.csv")
-data17["Year"] = 2018
-data16 = pd.read_csv("odds data/nba odds 2016-17.csv")
-data16["Year"] = 2017
 
 abr_dict = {
     'Atlanta': 'ATL',
