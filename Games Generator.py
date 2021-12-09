@@ -17,7 +17,7 @@ def changeaway(string):
 games_df["Home Team"] = [changehome(x) for x in games_df["MATCHUP"]]
 games_df["Away Team"] = [changeaway(x) for x in games_df["MATCHUP"]]
 
-games_df = games_df[games_df["GAME_DATE"]>"2018-10-15"]
+games_df = games_df[games_df["GAME_DATE"]>"2020-10-15"]
 
 teams = ['ATL', 'BKN', 'BOS', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW', 'HOU', 'IND', 'LAC', 'LAL', 'MEM',
          'MIA', 'MIL', 'MIN', 'NOP', 'NYK', 'OKC', 'ORL', 'PHI', 'PHX', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS']

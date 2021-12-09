@@ -149,7 +149,7 @@ df = df_double
 
 df["Key Player Out"] = [
     len(set(x[0]).intersection(set(BPMLeaders.BPM_globals
-                                   ["BPM_" + str(x[1])]["Name"][:40])))>0 for x in df[["New Out", "Year"]].values]
+                                   ["BPM_" + str(x[1]-1)]["Name"][:40])))>0 for x in df[["New Out", "Year"]].values]
 
 df = df.drop(["index", "Player's Out", "Prev Out", "New Out", "Team"], axis=1)
 
